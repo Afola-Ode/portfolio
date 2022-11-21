@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header, section{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-left: 24px;
+}
+.btn-view, .about__content button, .career__left button, .buttons button{
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+}
+.about__me{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+.about__me h2, .career__left h2{
+color: black;
+}
+.about__content{
+    padding-left: 30px;
+}
+.about__me img{
+    width: 400px;
+}
+.about__me p{
+    margin-top: 20px;
+}.about__content button{
+    margin-top: 10px;
+}
+.career{
+    display: flex;
+    padding: 20px 0;
+}
+.career__left{
+    width: 50%;
+    margin-top: 30px;
+}
+.career__left h2{
+    padding-bottom: 20px;
+}
+.career__right{
+margin-top: 30px;
+padding-left: 30px;
+}
+.buttons{
+display: flex;
+width: 100px;
+justify-content: space-between;
+
+}
+.buttons button{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.career__left button{
+margin-top: 10px;
+}
